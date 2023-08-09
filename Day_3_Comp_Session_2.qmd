@@ -1,0 +1,36 @@
+---
+title: "Day 3 Comp Session 2"
+format: html
+editor: visual
+---
+
+## Vectors in R
+
+```{r}
+
+# if you have quotes, it is a character string, if you have a number, you are trying to input it as a number. 
+
+marmots <- c("blue","green",4, "yellow", TRUE)
+
+class(marmots)
+
+marmots
+
+#if we have values that are all numeric then you have a numeric vector
+```
+
+Making a numeric vector:
+
+```{r}
+pika <-c(24, 2.3, 5.6, 9)
+
+class(pika)
+```
+
+```{r}
+# we can have integer values or floats
+
+# for an integer put an L after the values
+
+bear <-c(20L, 3L, 5L, 18L)
+```
